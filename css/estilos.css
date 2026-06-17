@@ -672,6 +672,7 @@ html{
     header{
         flex-direction: column;
         padding: 8px 10px;
+        border-radius: 15px;
     }
 
     header h2{
