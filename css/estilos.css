@@ -667,20 +667,29 @@ html{
 
 @media (max-width: 768px){
 
+    /* HEADER */
+
     header{
         flex-direction: column;
-        padding: 15px;
+        padding: 8px 10px;
+    }
+
+    header h2{
+        margin: 0 0 8px 0;
     }
 
     nav{
-        margin-top: 15px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     nav a{
-        margin: 5px 10px;
+        margin: 0 6px;
         font-size: 1.2rem;
     }
+
+    /* HERO */
 
     .hero{
         flex-direction: column;
@@ -697,6 +706,8 @@ html{
         font-size: 2.5rem;
     }
 
+    /* SOBRE MI */
+
     .sobre-mi{
         padding: 80px 8%;
     }
@@ -712,6 +723,7 @@ html{
 
     .sobre-mi-container{
         flex-direction: column;
+        align-items: center;
         text-align: center;
         gap: 40px;
     }
@@ -725,6 +737,28 @@ html{
         flex-wrap: wrap;
     }
 
+    /* OBJETIVOS */
+
+.objetivos{
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+    .objetivos h2{
+        text-align: center;
+    }
+
+    .objetivos .titulo-linea{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   
+
+    /* PROYECTOS */
+
     .proyectos{
         padding: 80px 20px;
     }
@@ -737,9 +771,10 @@ html{
     }
 
     .proyecto-card{
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
+
+    /* CONTACTO */
 
     .contacto{
         padding: 80px 8%;
@@ -757,8 +792,11 @@ html{
         box-sizing: border-box;
     }
 
+    /* FOOTER */
+
     .footer-container{
         flex-direction: column;
+        align-items: center;
         gap: 20px;
         text-align: center;
     }
